@@ -1,0 +1,405 @@
+/*LISTA Paleta Colores Tia Amalia*/
+$color-azul: #0b3954;
+$color-rojo:   #d62828;
+$color-naranja: #f77f00; 
+$color-amarillo:#fcbf49; 
+$color-turquesa:#087e8b; 
+
+/*Mapa Paleta Colores Tia Amalia*/
+
+$paletacolores: (
+  'color-azul': #0b3954,
+  'color-rojo':#d62828,
+  'color-naranja': #f77f00,
+  'color-amarillo':#fcbf49, 
+  'color-turquesa':#087e8b, 
+);
+
+
+
+/* Paleta Colores RGB*/
+
+$colorRGB-rojo: rgba(214,40,40, 0.9);
+
+/* Paleta Colores Otros*/
+$color-whatapp: #25d366;
+$color-blanco:#FFF ;
+
+/* Whatsapp */
+.float {
+    position: fixed;
+    width: 100px;
+    height: 45px;
+    bottom: 40px;
+    left: 40px;
+    background-color: $color-whatapp;
+    color: $color-blanco;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: $color-whatapp;
+    background-color:$color-blanco;
+}
+ /* Whatsapp */
+
+
+/* Backgound image */
+.back{
+ height: 100vh;    
+ background-image: url(/images-index/back.png);
+ min-height: 500px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;  
+}
+
+/* Header-NAV*/
+
+.navbar{
+    background-color: $color-amarillo;
+    font-size: 1.3em;      
+}
+
+/* Header-NAV*/
+
+
+
+/* Countdown with BEM */
+
+.countdown{
+    height: auto;
+    text-align: center;
+    color: $color-amarillo ;
+    text-shadow: 2px 2px $color-azul;
+    border-radius: 0%;
+    padding-bottom: 180px;
+    margin-bottom: 100px;
+    background:$color-blanco
+    
+        
+}
+.countdown__head {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ .countdown__cuenta {
+     font-size: 5em;
+     margin-top: 50px;
+     margin-bottom: 50px;
+
+ }
+/* Countdown with BEM */
+/*Section media*/
+
+.color0 {
+            text-align: center;
+        }
+
+ .imagenindex {
+    text-align: center;
+    padding-top: 100px;
+
+ }
+
+ 
+ .titulos{
+
+    color: $color-amarillo ;
+    text-shadow: 3px 3px $color-azul;
+    font-size: 4em;
+
+ }
+
+.textoindex {
+    font-size: 1.5em;
+    color: $color-amarillo ;
+    text-shadow: 2px 2px $color-azul;
+    border-radius: 80%;
+    background: rgba(214,40,40, 0.9)
+    
+}
+
+/* APARICION ap1 */
+.ap1 { 
+    animation: 2s aparicion 1; 
+    transform-origin: top left;
+}
+
+@keyframes aparicion
+{
+    0% { opacity: 0; }
+    100% { opacity: 0.8; }
+}
+/* APARICION ap1*/
+/* APARICION ap2 */
+.ap2 { 
+    animation: 4s aparicion 1; 
+    transform-origin: top left;
+}
+@keyframes aparicion
+{
+    0% { opacity: 0; }
+    100% { opacity: 0.8; }
+}
+/* APARICION ap2*/
+/* APARICION ap3 */
+.ap3 { 
+    animation: 6s aparicion 1; 
+    transform-origin: top left;
+}
+
+@keyframes aparicion
+{
+    0% { opacity: 0; }
+    100% { opacity: 0.8; }
+}
+/* APARICION ap3*/
+/*Section media*/
+
+
+/*footer*/
+.foot{
+    background-color: $color-amarillo;
+}
+.copyright{
+    background-color: $color-turquesa;
+    color: $color-blanco;
+}
+/*footer*/
+
+
+/* QUIEN ES TIA */
+
+.quienes{
+    font-size: 1.5em;
+    color: $color-amarillo ;
+    text-shadow: 2px 2px $color-azul;
+    border-radius: 80%;
+    background: $colorRGB-rojo
+}
+/* QUIEN ES TIA */
+
+
+/* UNIRME AL CLUB  */
+.card {
+    color: $color-blanco;
+    border: none;
+    padding: 20px;     
+}
+
+
+.form-input {
+    color: $color-rojo;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 10px;
+    left: 10px;
+}
+
+.form-control {
+    text-indent: 24px;
+    font-size: 15px
+}
+
+.signup {
+    height: 50px;
+    width: auto;
+    font-size: 14px
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-turquesa;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+   
+}
+
+.social:hover {
+    color: white;
+    background-color: $color-azul;
+    border-color: $color-naranja;
+}
+/* UNIRME AL CLUB  */
+
+/* BOX DE LA TIA  */
+
+.carousel-inner {
+    height:300px;
+    text-align: center;
+    
+    }
+
+  /*  .carousel-control-prev-icon {
+    position: relative; 
+    left: 100%;
+
+    }  para probar*/
+    
+.box__info {
+    align-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    color: $color-amarillo ;
+    text-shadow: 2px 2px #0b3954;
+    border-radius: 80%;
+    background: rgba(214,40,40, 0.9)
+    
+}
+    
+/* Galeria videos  */
+
+.bod1 {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bod2 {
+  margin-left: 15px;
+  width: 100%;
+  height: 15px;
+  font-size: 30px;
+}
+
+
+ol {
+  font-style: italic;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 20px;
+
+}
+
+.videogaleria {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.videogaleria h1 {
+   font-size: 4em;
+    color: $color-amarillo ;
+    text-shadow: 2px 2px #0b3954;
+    border-radius: 80%;
+    background: rgba(214,40,40, 0.5)
+}
+
+.contenedorvideo {
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-areas: "item1 item2 item3 "
+}
+
+.video {
+  height: 300px;
+  width: 300px;
+  background-color:$color-amarillo;
+  border: 2px solid #fff;
+  text-align: center;
+  padding-top: 10px;
+
+
+}
+
+.video:hover {
+  transform: scale(2);
+  transition: 0.7s;
+}
+
+.video1 {
+  grid-area: "video1";
+}
+
+.video2 {
+  grid-area: "video2";
+}
+
+.video3 {
+  grid-area: "video3";
+}
+
+.video4 {
+  grid-area: "video4";
+}
+
+.video5 {
+  grid-area: "video5";
+}
+
+.video6 {
+  grid-area: "video6";
+}
+
+.video7 {
+  grid-area: "video7";
+}
+
+.video8 {
+  grid-area: "video8";
+}
+/* Galeria videos  */
+
+/* BOX DE LA TIA  */
+
+
+
+/* ERROR 404*/
+
+.pagenotfound { 
+  background:  url(https://38.media.tumblr.com/546c0cd48d71f210f9b67a389003790d/tumblr_neq0yw9rMA1tm16jjo1_500.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+.error404__h1{
+  font-size: 16em;
+  margin: .2em .5em;
+  color: rgba(255,255,255, 0.7);
+  margin-bottom:0px;
+}
+.error404__h2{
+  font-size: 1.7em;
+  margin: .2em .5em;
+  color: rgba(255,255,255, 0.6);
+	.material-icons {
+		font-size: 1.5em;
+		position: relative;
+		top: 10px;
+	}
+}
+
+.error404__boton{
+    margin-top: 20px;
+}
+div.error404__main{
+  position:absolute;
+  top:30%;
+  margin-top:-8em;
+  width:100%;
+  text-align:center;
+}
+/* ERROR 404*/

@@ -1,0 +1,408 @@
+/*LISTA Paleta Colores Tia Amalia*/
+/*Mapa Paleta Colores Tia Amalia*/
+/* Paleta Colores RGB*/
+/* Paleta Colores Otros*/
+/* Whatsapp */
+.float {
+  position: fixed;
+  width: 100px;
+  height: 45px;
+  bottom: 40px;
+  left: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #FFF;
+}
+
+/* Whatsapp */
+/* Backgound image */
+.back {
+  height: 100vh;
+  background-image: url(/images-index/back.png);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header-NAV*/
+.navbar {
+  background-color: #fcbf49;
+  font-size: 1.3em;
+}
+
+/* Header-NAV*/
+/* Countdown with BEM */
+.countdown {
+  height: auto;
+  text-align: center;
+  color: #fcbf49;
+  text-shadow: 2px 2px #0b3954;
+  border-radius: 0%;
+  padding-bottom: 25px;
+  margin-bottom: 100px;
+  background: #FFF;
+}
+
+.countdown__head {
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.countdown__cuenta {
+  font-size: 5em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.countdown__unite {
+  font-size: 2em;
+}
+
+/* Countdown with BEM */
+/*Section media*/
+.color0 {
+  text-align: center;
+}
+
+.imagenindex {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.titulos {
+  color: #fcbf49;
+  text-shadow: 3px 3px #0b3954;
+  font-size: 4em;
+}
+
+.textoindex {
+  font-size: 1.5em;
+  color: #fcbf49;
+  text-shadow: 2px 2px #0b3954;
+  border-radius: 80%;
+  background: rgba(214, 40, 40, 0.9);
+}
+
+/* APARICION ap1 */
+.ap1 {
+  -webkit-animation: 2s aparicion 1;
+          animation: 2s aparicion 1;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+@-webkit-keyframes aparicion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes aparicion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+/* APARICION ap1*/
+/* APARICION ap2 */
+.ap2 {
+  -webkit-animation: 4s aparicion 1;
+          animation: 4s aparicion 1;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+@keyframes aparicion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+/* APARICION ap2*/
+/* APARICION ap3 */
+.ap3 {
+  -webkit-animation: 6s aparicion 1;
+          animation: 6s aparicion 1;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+@keyframes aparicion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+/* APARICION ap3*/
+/*Section media*/
+/*footer*/
+.foot {
+  background-color: #fcbf49;
+}
+
+.copyright {
+  background-color: #087e8b;
+  color: #FFF;
+}
+
+/*footer*/
+/* QUIEN ES TIA */
+.quienes {
+  font-size: 1.5em;
+  color: #fcbf49;
+  text-shadow: 2px 2px #0b3954;
+  border-radius: 80%;
+  background: rgba(214, 40, 40, 0.9);
+}
+
+/* QUIEN ES TIA */
+/* UNIRME AL CLUB  */
+.card {
+  color: #FFF;
+  border: none;
+  padding: 20px;
+}
+
+.form-input {
+  color: #d62828;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-input i {
+  position: absolute;
+  font-size: 18px;
+  top: 10px;
+  left: 10px;
+}
+
+.form-control {
+  text-indent: 24px;
+  font-size: 15px;
+}
+
+.signup {
+  height: 50px;
+  width: auto;
+  font-size: 14px;
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #087e8b;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.social:hover {
+  color: white;
+  background-color: #0b3954;
+  border-color: #f77f00;
+}
+
+/* UNIRME AL CLUB  */
+/* BOX DE LA TIA  */
+.carousel-inner {
+  height: 300px;
+  text-align: center;
+}
+
+/*  .carousel-control-prev-icon {
+    position: relative; 
+    left: 100%;
+
+    }  para probar*/
+.box__info {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fcbf49;
+  text-shadow: 2px 2px #0b3954;
+  border-radius: 80%;
+  background: rgba(214, 40, 40, 0.9);
+}
+
+/* Galeria videos  */
+.bod1 {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bod2 {
+  margin-left: 15px;
+  width: 100%;
+  height: 15px;
+  font-size: 30px;
+}
+
+ol {
+  font-style: italic;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.videogaleria {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.videogaleria h1 {
+  font-size: 4em;
+  color: #fcbf49;
+  text-shadow: 2px 2px #0b3954;
+  border-radius: 80%;
+  background: rgba(214, 40, 40, 0.5);
+}
+
+.contenedorvideo {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: "item1 item2 item3 ";
+}
+
+.video {
+  height: 300px;
+  width: 300px;
+  background-color: #fcbf49;
+  border: 2px solid #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.video:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.video1 {
+  grid-area: "video1";
+}
+
+.video2 {
+  grid-area: "video2";
+}
+
+.video3 {
+  grid-area: "video3";
+}
+
+.video4 {
+  grid-area: "video4";
+}
+
+.video5 {
+  grid-area: "video5";
+}
+
+.video6 {
+  grid-area: "video6";
+}
+
+.video7 {
+  grid-area: "video7";
+}
+
+.video8 {
+  grid-area: "video8";
+}
+
+/* Galeria videos  */
+/* BOX DE LA TIA  */
+/* ERROR 404*/
+.pagenotfound {
+  background: url(https://38.media.tumblr.com/546c0cd48d71f210f9b67a389003790d/tumblr_neq0yw9rMA1tm16jjo1_500.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.error404__h1 {
+  font-size: 16em;
+  margin: .2em .5em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0px;
+}
+
+.error404__h2 {
+  font-size: 1.7em;
+  margin: .2em .5em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.error404__h2 .material-icons {
+  font-size: 1.5em;
+  position: relative;
+  top: 10px;
+}
+
+.error404__boton {
+  margin-top: 20px;
+}
+
+div.error404__main {
+  position: absolute;
+  top: 30%;
+  margin-top: -8em;
+  width: 100%;
+  text-align: center;
+}
+
+/* ERROR 404*/
+/*# sourceMappingURL=styles.css.map */
