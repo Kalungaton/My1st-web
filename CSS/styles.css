@@ -185,11 +185,16 @@
 /*footer*/
 /* QUIEN ES TIA */
 .quienes {
-  font-size: 1.5em;
+  margin-top: 50px;
+  font-size: 2.5em;
   color: #fcbf49;
   text-shadow: 2px 2px #0b3954;
-  border-radius: 80%;
-  background: rgba(214, 40, 40, 0.9);
+  background: #0b3954;
+}
+
+.carousel-item {
+  height: 500px;
+  text-align: center;
 }
 
 /* QUIEN ES TIA */
@@ -283,130 +288,46 @@
 
 /* UNIRME AL CLUB  */
 /* BOX DE LA TIA  */
-.carousel-inner {
-  height: 300px;
-  text-align: center;
-}
-
-/*  .carousel-control-prev-icon {
-    position: relative; 
-    left: 100%;
-
-    }  para probar*/
 .box__info {
   -ms-flex-line-pack: center;
       align-content: center;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #fcbf49;
   text-shadow: 2px 2px #0b3954;
-  border-radius: 80%;
-  background: rgba(214, 40, 40, 0.9);
 }
 
-/* Galeria videos  */
-.bod1 {
-  width: 100%;
-  height: 100px;
-  font-size: 30px;
+.pia {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lista {
   text-align: center;
 }
 
-.bod2 {
-  margin-left: 15px;
-  width: 100%;
-  height: 15px;
-  font-size: 30px;
-}
-
-ol {
-  font-style: italic;
-  font-size: 20px;
-  padding: 20px;
-  margin-left: 20px;
-}
-
-.videogaleria {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
-}
-
-.videogaleria h1 {
-  font-size: 4em;
+.homenaje {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 3em;
   color: #fcbf49;
   text-shadow: 2px 2px #0b3954;
-  border-radius: 80%;
-  background: rgba(214, 40, 40, 0.5);
+  background: #0b3954;
 }
 
-.contenedorvideo {
-  width: 100%;
-  height: auto;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-      grid-template-areas: "item1 item2 item3 ";
+.homenaje1 {
+  margin-top: 50px;
+  text-align: left;
+  font-size: 2em;
+  color: #FFF;
+  text-shadow: 1px 1px #fcbf49;
+  background: #0b3954;
 }
 
-.video {
-  height: 300px;
-  width: 300px;
-  background-color: #fcbf49;
-  border: 2px solid #fff;
+.vin {
   text-align: center;
-  padding-top: 10px;
 }
 
-.video:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-.video1 {
-  grid-area: "video1";
-}
-
-.video2 {
-  grid-area: "video2";
-}
-
-.video3 {
-  grid-area: "video3";
-}
-
-.video4 {
-  grid-area: "video4";
-}
-
-.video5 {
-  grid-area: "video5";
-}
-
-.video6 {
-  grid-area: "video6";
-}
-
-.video7 {
-  grid-area: "video7";
-}
-
-.video8 {
-  grid-area: "video8";
-}
-
-/* Galeria videos  */
 /* BOX DE LA TIA  */
 /* ERROR 404*/
 .pagenotfound {
@@ -540,15 +461,13 @@ form {
   width: 100%;
   outline: none;
   border: 2px solid #fcbf49;
-  background: none;
+  background-color: coral;
   padding: 0.6rem 1.2rem;
   color: #fff;
   font-weight: 500;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
   border-radius: 4px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 textarea.input {
@@ -581,7 +500,7 @@ textarea.input {
           transform: translateY(0);
 }
 
-.btn {
+.btna {
   padding: 0.6rem 1.3rem;
   background-color: #fff;
   border: 2px solid #fafafa;
@@ -596,7 +515,7 @@ textarea.input {
   margin: 0;
 }
 
-.btn:hover {
+.btna:hover {
   background-color: transparent;
   color: #fff;
 }
